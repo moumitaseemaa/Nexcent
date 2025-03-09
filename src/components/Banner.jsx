@@ -31,7 +31,7 @@ export default Banner;
 
 const Background = styled.div`
   background-color: #f5f7fa;
-  padding: 161px 0;
+  padding: 96px 0;
 `;
 
 const SideBySide = styled.div`
