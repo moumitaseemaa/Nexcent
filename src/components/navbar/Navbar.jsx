@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <Background>
       <Container>
-        <Sidebyside>
+        <SideBySide>
           <Logo>
             <img src={NavLogo} alt="logo" />
           </Logo>
@@ -18,7 +18,7 @@ const Navbar = () => {
             <Login>Login</Login>
             <SignUp>SignUp</SignUp>
           </GroupButton>
-        </Sidebyside>
+        </SideBySide>
       </Container>
     </Background>
   );
@@ -31,7 +31,7 @@ const Background = styled.div`
   padding: 22px 0;
 `;
 
-const Sidebyside = styled.div`
+const SideBySide = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
