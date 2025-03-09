@@ -16,7 +16,7 @@ const Navbar = () => {
           </MenuItems>
           <GroupButton>
             <Login>Login</Login>
-            <SignUp>SignUp</SignUp>
+            <SignUp>Sign up</SignUp>
           </GroupButton>
         </SideBySide>
       </Container>
@@ -46,24 +46,24 @@ const MenuItems = styled.div`
 `;
 const GroupButton = styled.div`
   width: 20%;
-`;
-
-const Login = styled.button`
+  `;
+  
+  const Login = styled.button`
   padding: 10px 20px;
   color: #4caf4f;
   border-radius: 5px;
   border: none;
   margin-right: 14px;
-  font-size: 14px;
-  font-weight: 500;
-`;
-
-const SignUp = styled.button`
+  font-family:"inter",sans-serif
+  
+  `;
+  
+  const SignUp = styled.button`
   padding: 10px 20px;
   background: #4caf4f;
   color: white;
   border-radius: 5px;
   border: none;
-  font-size: 14px;
-  font-weight: 500;
+  font-family:"inter",sans-serif
+
 `;

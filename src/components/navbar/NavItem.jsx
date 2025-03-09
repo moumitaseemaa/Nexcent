@@ -23,10 +23,12 @@ const UnorderList = styled.ul`
   list-style: none;
   font-size: 16px;
   font-weight: 500;
-`;
+  `;
+  
+  const List = styled.li`
+  font-family:"inter",sans-serif;
 
-const List = styled.li`
   &:hover {
     color: #4caf4f;
-  }
+    }
 `;
